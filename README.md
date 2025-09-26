@@ -24,7 +24,13 @@ This project is an AI-powered chatbot that integrates with OpenAI GPT models and
 🛠️ Tech Stack
 
 1)Python
+
 2)openai → AI responses
+
 3)pyautogui → GUI automation (mouse & keyboard)
+
 4)pyperclip → Clipboard management
-4)time → Delays for smooth automation
+
+5)time → Delays for smooth automation
+
+Note: Since this project uses pyautogui, it directly clicks and types on your system. Make sure your chat window (e.g., WhatsApp Web) is positioned correctly on screen, and adjust the coordinates in bot.py if needed.
